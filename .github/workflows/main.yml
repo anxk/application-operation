@@ -29,4 +29,3 @@ jobs:
         client = docker.APIClient()
         [client.inspect_distribution(x.get("image")) for x in a.get("services").values()]
       shell: python
-

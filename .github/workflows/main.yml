@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ anxk-patch-3 ]
+    branches: [ master ]
   pull_request:
-    branches: [ anxk-patch-3 ]
+    branches: [ master ]
 
 jobs:
   build:

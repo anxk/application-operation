@@ -12,8 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      
-    - name: Set up Python 3.6
+      name: Set up Python 3.6
       with:
         python-version: '3.6'
 

@@ -27,5 +27,5 @@ jobs:
         data = yaml.safe_load(f)
         f.close()
         client = docker.APIClient()
-        [client.inspect_distribution(x.get("image")) for x in a.get("services").values()]
+        [client.inspect_distribution(x.get("image")) for x in data.get("services").values()]
       shell: python

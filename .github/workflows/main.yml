@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: Set up Python 3.x
+      with:
+        python-version: '3.x'
 
     - name: prepare environment
       run: pip3 install docker pyyaml
